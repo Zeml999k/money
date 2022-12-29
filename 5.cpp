@@ -33,7 +33,7 @@ void money(int cash)
 int main()
 {
    int value = 0;
-   std::cout << "введите ваше количество денег, которое хотите попробовать разменять: " << std::endl;
+   std::cout << "введите ваше количество денег, которые хотите попробовать разменять: " << std::endl;
    std::cin >> value;
    money(value);
    return 0;
